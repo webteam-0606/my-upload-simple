@@ -2,7 +2,7 @@
   <!--  上传的excel表格预览  -->
   <!-- :fit="true" 表格内容换行 -->
   <div class="preview-excel">
-    <el-table class="listTable_ele" v-loading="loading" :data="dataSet" border stripe height="650px" style="width:100%">
+    <el-table class="listTable_ele" v-loading="loading" :data="dataSet" border stripe height="550px" style="width:100%">
       <el-table-column
         v-for="(key, index) in keyList"
         :prop="key"
